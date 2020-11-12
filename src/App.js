@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <Lottery/>
+        <Lottery title='Mini Daily' maxNum={10} maxBalls={4}/>
       </div>
     )
   }
